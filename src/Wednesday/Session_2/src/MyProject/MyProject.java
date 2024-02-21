@@ -21,7 +21,6 @@ public class MyProject {
     }
 
     public void init(){
-        // ToDO: Explain why  null pointer?!
         Seller seller = new Seller();
         CommunicateToSeller communicate = new CommunicateToSeller(seller);
         Customer customer = new Customer(communicate);
