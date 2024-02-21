@@ -30,7 +30,6 @@ public class MyProject {
         addInitProducts(seller);
         sellerCli.setCliConnector(cliConnector);
         customerCli.setCliConnector(cliConnector);
-        //cliConnector.addCliConnector();
         cliConnector.init();
     }
 
