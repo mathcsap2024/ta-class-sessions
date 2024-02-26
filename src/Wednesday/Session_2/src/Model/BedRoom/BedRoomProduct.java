@@ -1,6 +1,7 @@
-package Model.BedRoom;
+package Wednesday.Session_2.src.Model.BedRoom;
 
-import Model.Product;
+
+import Wednesday.Session_2.src.Model.Product;
 
 public abstract class BedRoomProduct extends Product {
 

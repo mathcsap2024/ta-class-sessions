@@ -1,4 +1,4 @@
-package Model;
+package Wednesday.Session_2.src.Model;
 
 import java.util.ArrayList;
 

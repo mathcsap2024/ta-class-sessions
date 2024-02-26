@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bff4bc6-6723-40e9-a5bc-a341a8f8a27e" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/controller/Authentication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/controller/FileManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/resources/mjghr/mjghr.txt" afterDir="false" />
@@ -15,6 +16,21 @@
       <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CliConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CliConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CommunicateToSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CommunicateToSeller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Seller.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CliConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CliConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CommunicateToSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CommunicateToSeller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/Bed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/Bed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/BedRoomProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/BedRoomProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/Closet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/Closet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/LivingRoomProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/LivingRoomProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/SellerStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/SellerStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/User.java" afterDir="false" />
+>>>>>>> master
       <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/MyProject/MyProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/MyProject/MyProject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/CustomerCli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/CustomerCli.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/SellerCli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/SellerCli.java" afterDir="false" />
@@ -45,6 +61,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -57,8 +74,22 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mahan Gh/Desktop/Ta AP/ta-class-sessions/src/Wednesday/session1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+>>>>>>> master
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\src\Tuesday\session3" />
@@ -109,5 +140,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="made some changes" />
   </component>
 </project>

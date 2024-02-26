@@ -5,7 +5,7 @@ import Wednesday.Session_2.src.Model.Discountable;
 
 import java.awt.*;
 
-public class Closet extends Model.BedRoom.BedRoomProduct implements Discountable {
+public class Closet extends BedRoomProduct implements Discountable {
 
     private String type;
     private Color color;

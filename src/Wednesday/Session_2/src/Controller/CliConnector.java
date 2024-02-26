@@ -1,5 +1,9 @@
 package Wednesday.Session_2.src.Controller;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 import Wednesday.Session_2.src.View.CustomerCli;
 import Wednesday.Session_2.src.View.SellerCli;
 

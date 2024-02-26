@@ -1,4 +1,4 @@
-package Controller;
+package Wednesday.Session_2.src.Controller;
 
 
 import Wednesday.Session_2.src.Model.Seller;

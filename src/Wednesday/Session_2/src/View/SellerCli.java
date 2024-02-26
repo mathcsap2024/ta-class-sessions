@@ -1,11 +1,10 @@
 package Wednesday.Session_2.src.View;
 
 
-import Model.Seller;
-import Wednesday.Session_2.src.Controller.CliConnector;
 
-import java.awt.*;
-import java.lang.reflect.TypeVariable;
+import Wednesday.Session_2.src.Controller.CliConnector;
+import Wednesday.Session_2.src.Model.Seller;
+
 import java.util.Scanner;
 
 public class SellerCli {

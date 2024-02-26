@@ -1,4 +1,4 @@
-package Model.LivingRoom;
+package Wednesday.Session_2.src.Model.LivingRoom;
 
 public class Television extends LivingRoomProduct {
 

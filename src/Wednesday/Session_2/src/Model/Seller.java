@@ -1,17 +1,18 @@
 package Wednesday.Session_2.src.Model;
 
-import Model.BedRoom.Bed;
-import Model.BedRoom.Closet;
-import Model.LivingRoom.Seat;
-import Model.LivingRoom.Television;
+
+import Wednesday.Session_2.src.Model.BedRoom.Bed;
+import Wednesday.Session_2.src.Model.BedRoom.Closet;
+import Wednesday.Session_2.src.Model.LivingRoom.Seat;
+import Wednesday.Session_2.src.Model.LivingRoom.Television;
 
 import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Seller extends Model.User {
+public class Seller extends User {
 
-    private Model.SellerStorage storage;
+    private SellerStorage storage;
 
     // Creating a HashMap to map every product name to its object
     // To help creating new products easier:
@@ -19,7 +20,7 @@ public class Seller extends Model.User {
 
     public Seller() {
         this.setUsername("Admin");
-        storage = new Model.SellerStorage();
+        storage = new SellerStorage();
         mapProducts();
     }
 
@@ -31,11 +32,11 @@ public class Seller extends Model.User {
         productMap.put("TV", new Television(50, "LG", true, 100, 50));
     }
 
-    public Model.SellerStorage getStorage() {
+    public SellerStorage getStorage() {
         return storage;
     }
 
-    public void setStorage(Model.SellerStorage storage) {
+    public void setStorage(SellerStorage storage) {
         this.storage = storage;
     }
 
