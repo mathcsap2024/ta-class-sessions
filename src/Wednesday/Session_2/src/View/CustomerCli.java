@@ -1,8 +1,8 @@
-package View;
+package Wednesday.Session_2.src.View;
 
-import Controller.CliConnector;
 import Model.Customer;
 import Model.Product;
+import Wednesday.Session_2.src.Controller.CliConnector;
 
 import java.util.ArrayList;
 import java.util.Scanner;

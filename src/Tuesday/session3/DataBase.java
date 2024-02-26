@@ -20,6 +20,18 @@ public class DataBase {
         return loggedInUser;
     }
 
+    public void setUsers(List<User> users) {
+        this.users = users;
+    }
+
+    public Storage getStorage() {
+        return storage;
+    }
+
+    public void setStorage(Storage storage) {
+        this.storage = storage;
+    }
+
     public void setLoggedInUser(User loggedInUser) {
         this.loggedInUser = loggedInUser;
     }

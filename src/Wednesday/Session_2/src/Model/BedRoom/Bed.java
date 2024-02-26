@@ -1,4 +1,4 @@
-package Model.BedRoom;
+package Wednesday.Session_2.src.Model.BedRoom;
 
 import java.awt.*;
 

@@ -1,4 +1,4 @@
-package Model;
+package Wednesday.Session_2.src.Model;
 
 import Model.BedRoom.Bed;
 import Model.BedRoom.Closet;
@@ -9,9 +9,9 @@ import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Seller extends User {
+public class Seller extends Model.User {
 
-    private SellerStorage storage;
+    private Model.SellerStorage storage;
 
     // Creating a HashMap to map every product name to its object
     // To help creating new products easier:
@@ -19,7 +19,7 @@ public class Seller extends User {
 
     public Seller() {
         this.setUsername("Admin");
-        storage = new SellerStorage();
+        storage = new Model.SellerStorage();
         mapProducts();
     }
 
@@ -31,11 +31,11 @@ public class Seller extends User {
         productMap.put("TV", new Television(50, "LG", true, 100, 50));
     }
 
-    public SellerStorage getStorage() {
+    public Model.SellerStorage getStorage() {
         return storage;
     }
 
-    public void setStorage(SellerStorage storage) {
+    public void setStorage(Model.SellerStorage storage) {
         this.storage = storage;
     }
 

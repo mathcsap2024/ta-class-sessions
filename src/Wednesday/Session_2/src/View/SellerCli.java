@@ -1,10 +1,8 @@
-package View;
+package Wednesday.Session_2.src.View;
 
-import Controller.CliConnector;
-import Model.LivingRoom.Seat;
-import Model.LivingRoom.Television;
-import Model.Product;
+
 import Model.Seller;
+import Wednesday.Session_2.src.Controller.CliConnector;
 
 import java.awt.*;
 import java.lang.reflect.TypeVariable;

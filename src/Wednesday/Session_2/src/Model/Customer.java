@@ -1,4 +1,4 @@
-package Model;
+package Wednesday.Session_2.src.Model;
 
 import Controller.CommunicateToSeller;
 import Model.BedRoom.Bed;

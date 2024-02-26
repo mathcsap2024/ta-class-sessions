@@ -5,26 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bff4bc6-6723-40e9-a5bc-a341a8f8a27e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/CLI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/Logic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/AppModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/Ingredients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/Product/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/Product/DrinkType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/Product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/Product/ProductType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/controller/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/controller/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/resources/mjghr/mjghr.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/CLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/Logic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CliConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CliConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CommunicateToSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CommunicateToSeller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/MyProject/MyProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/MyProject/MyProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/CustomerCli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/CustomerCli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/SellerCli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/SellerCli.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +61,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\src\Tuesday\session3" />
       <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\src\Wednesday\session1" />
       <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\src\Tuesday\session2" />
       <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\Wednesday" />
@@ -65,6 +71,15 @@
       <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\src" />
       <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\3-shanbe" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main 3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Tuesday.session3.Main" />
+      <module name="ta-class-sessions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,7 +92,7 @@
       <workItem from="1708448345274" duration="2403000" />
       <workItem from="1708546111200" duration="621000" />
       <workItem from="1708606144912" duration="42000" />
-      <workItem from="1708976944130" duration="297000" />
+      <workItem from="1708976944130" duration="4151000" />
     </task>
     <servers />
   </component>

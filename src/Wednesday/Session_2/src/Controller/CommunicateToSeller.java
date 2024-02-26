@@ -1,6 +1,7 @@
 package Controller;
 
-import Model.Seller;
+
+import Wednesday.Session_2.src.Model.Seller;
 
 public class CommunicateToSeller {
 
