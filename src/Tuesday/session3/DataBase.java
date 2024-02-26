@@ -32,7 +32,13 @@ public class DataBase {
         this.storage = storage;
     }
 
+
     public void setLoggedInUser(User loggedInUser) {
         this.loggedInUser = loggedInUser;
+    }
+
+    public void createUser(User user){
+        this.getUsers().add(user);
+        this.setLoggedInUser(user);
     }
 }

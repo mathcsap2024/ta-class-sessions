@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7511eafc-58c3-4ba3-bcbe-6de9e37aae03" name="Changes" comment="made some changes">
+      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/resources/users/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/CLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/Logic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/controller/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/controller/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/controller/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/controller/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/User.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Tuesday.session3.Main" />
+      <module name="ta-class-sessions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
