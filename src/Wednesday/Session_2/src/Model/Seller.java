@@ -1,9 +1,10 @@
-package Model;
+package Wednesday.Session_2.src.Model;
 
-import Model.BedRoom.Bed;
-import Model.BedRoom.Closet;
-import Model.LivingRoom.Seat;
-import Model.LivingRoom.Television;
+
+import Wednesday.Session_2.src.Model.BedRoom.Bed;
+import Wednesday.Session_2.src.Model.BedRoom.Closet;
+import Wednesday.Session_2.src.Model.LivingRoom.Seat;
+import Wednesday.Session_2.src.Model.LivingRoom.Television;
 
 import java.awt.*;
 import java.util.HashMap;

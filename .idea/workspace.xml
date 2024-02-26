@@ -5,52 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bff4bc6-6723-40e9-a5bc-a341a8f8a27e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/GameManger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/MyListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/Piece/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/Piece/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/Piece/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/Piece/PieceMoves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/listeners/DummyEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/listeners/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/listeners/SystemOutEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/models/Hexagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/models/HexagonCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/models/HexagonHint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/models/Paintable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/models/StringColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/panel/BoardPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/panel/MainPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/panel/RemovedPiecesPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/util/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/util/HintUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/graphics/util/Loop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wednesday/session1/hex_chess/util/PieceName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/halTamrin2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/CLI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/DataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/Logic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/model/AppModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/AppModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/model/Ingredients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/Ingredients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/model/Product/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/Product/Drink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/model/Product/DrinkType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/Product/DrinkType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/model/Product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/Product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/model/Product/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/Product/ProductType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/model/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/session-2/src/model/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/UserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CliConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CliConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CommunicateToSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Controller/CommunicateToSeller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/Bed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/Bed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/BedRoomProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/BedRoomProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/Closet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/BedRoom/Closet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/LivingRoomProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/LivingRoomProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/LivingRoom/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/SellerStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/SellerStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/MyProject/MyProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/MyProject/MyProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/CustomerCli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/CustomerCli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/SellerCli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wednesday/Session_2/src/View/SellerCli.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,20 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Mahan Gh/Desktop/Ta AP/ta-class-sessions/src/Wednesday/session1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mahan Gh/Desktop/Ta AP/ta-class-sessions/src/Wednesday/session1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\src\Wednesday\session1" />
@@ -122,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="made some changes" />
   </component>
 </project>

@@ -1,16 +1,15 @@
-package MyProject;
+package Wednesday.Session_2.src.MyProject;
 
-import Controller.CliConnector;
-import Controller.CommunicateToSeller;
-import Model.BedRoom.Bed;
-import Model.BedRoom.Closet;
-import Model.Customer;
-import Model.LivingRoom.Seat;
-import Model.LivingRoom.Television;
-import Model.Product;
-import Model.Seller;
-import View.CustomerCli;
-import View.SellerCli;
+import Wednesday.Session_2.src.Controller.CliConnector;
+import Wednesday.Session_2.src.Controller.CommunicateToSeller;
+import Wednesday.Session_2.src.Model.BedRoom.Bed;
+import Wednesday.Session_2.src.Model.BedRoom.Closet;
+import Wednesday.Session_2.src.Model.Customer;
+import Wednesday.Session_2.src.Model.LivingRoom.Seat;
+import Wednesday.Session_2.src.Model.LivingRoom.Television;
+import Wednesday.Session_2.src.Model.Seller;
+import Wednesday.Session_2.src.View.CustomerCli;
+import Wednesday.Session_2.src.View.SellerCli;
 
 import java.awt.*;
 

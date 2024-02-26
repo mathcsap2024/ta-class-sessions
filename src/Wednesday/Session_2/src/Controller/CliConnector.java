@@ -1,7 +1,8 @@
-package Controller;
+package Wednesday.Session_2.src.Controller;
 
-import View.CustomerCli;
-import View.SellerCli;
+
+import Wednesday.Session_2.src.View.CustomerCli;
+import Wednesday.Session_2.src.View.SellerCli;
 
 import java.util.Scanner;
 

@@ -1,8 +1,8 @@
-package Model.BedRoom;
+package Wednesday.Session_2.src.Model.BedRoom;
 
 import java.awt.*;
 
-public class Bed extends BedRoomProduct{
+public class Bed extends BedRoomProduct {
 
     private String type;
     private Color color;
