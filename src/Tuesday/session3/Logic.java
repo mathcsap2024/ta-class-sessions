@@ -7,6 +7,7 @@ import Tuesday.session3.model.UserType;
 public class Logic {
     private final CLI cli;
     private final DataBase dataBase;
+    private int gf;
 
     public Logic() {
         this.cli = new CLI(this);
