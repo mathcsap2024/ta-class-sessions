@@ -1,7 +1,7 @@
 package Tuesday.session2.model.Product;
 
 
-import Tuesday.session2.model.Ingredients;
+import Tuesday.session3.model.Ingredients;
 
 import java.util.List;
 

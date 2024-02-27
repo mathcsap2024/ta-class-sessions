@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7511eafc-58c3-4ba3-bcbe-6de9e37aae03" name="Changes" comment="made some changes">
-      <change afterPath="$PROJECT_DIR$/src/Tuesday/session3/resources/users/users.txt" afterDir="false" />
+    <list default="true" id="2bff4bc6-6723-40e9-a5bc-a341a8f8a27e" name="Changes" comment="made some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session2/model/Product/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/Product/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session2/model/Product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session2/model/Product/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/CLI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/DataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/Logic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/controller/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/controller/Authentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/controller/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/controller/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/model/Product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/model/Product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/resources/users/ad/ad.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/resources/users/m/m.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/resources/users/mj/mj.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tuesday/session3/resources/users/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tuesday/session3/resources/users/users.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,16 +27,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2cdjRfZjsrFoK8xH8b8n4my2xKP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)"
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Mahan Gh/Desktop/Ta AP/ta-class-sessions/src/Tuesday/session3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\src\Tuesday\session3" />
+      <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\src\Wednesday\session1" />
+      <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\src\Tuesday\session2" />
+      <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\Wednesday" />
+      <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\src" />
+      <recent name="C:\Users\Mahan Gh\Desktop\Ta AP\ta-class-sessions\3-shanbe" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="1" type="Application" factoryName="Application">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Tuesday.session3.Main" />
       <module name="ta-class-sessions" />
       <method v="2">
@@ -39,8 +76,21 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bff4bc6-6723-40e9-a5bc-a341a8f8a27e" name="Changes" comment="" />
+      <created>1708448343906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708448343906</updated>
+      <workItem from="1708448345274" duration="1233000" />
+      <workItem from="1709035574039" duration="3999000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -52,5 +102,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="made some changes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

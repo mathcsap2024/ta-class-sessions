@@ -1,8 +1,10 @@
 package Tuesday.session3;
 
 
+import Tuesday.session3.model.Product.Product;
 import Tuesday.session3.controller.Authentication;
 import Tuesday.session3.controller.FileManager;
+import Tuesday.session3.model.Order;
 import Tuesday.session3.model.User;
 import Tuesday.session3.model.UserType;
 
@@ -27,11 +29,28 @@ public class Logic {
         return "account was created successfully!";
     }
 
-    public User checkUserExistence(String username){
+    public User checkUserExistence(String username) {
         return authentication.getUserByUsername(username);
     }
-    public boolean CheckPassword(String password, String username){
+
+    public boolean CheckPassword(String password, String username) {
         return authentication.validatePassword(password, username);
+    }
+
+    public DataBase getDataBase() {
+        return dataBase;
+    }
+
+    public boolean checkValidOrder(String productName) {
+        for (Product product : dataBase.getProducts()) {
+            if (product.getName().equals(productName))
+                return true;
+        }
+        return false;
+    }
+
+    public void onCustomerOrder(String username, Order order) {
+        fileManager.writeOrderToFile(order, username);
     }
 
 }

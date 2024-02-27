@@ -1,3 +1,2 @@
-m:m
 mj:mj
-ad:ad
+parsa:123

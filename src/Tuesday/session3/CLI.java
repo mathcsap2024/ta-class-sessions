@@ -1,5 +1,10 @@
 package Tuesday.session3;
 
+import Tuesday.session3.model.Order;
+import Tuesday.session3.model.Product.Product;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class CLI {
@@ -32,10 +37,26 @@ public class CLI {
                             System.out.println("wrong password!");
                             continue;
                         }
-                        break;
+                        logic.getDataBase().setLoggedInUser(logic.checkUserExistence(username));
+                        List<Product> orderedProducts = new ArrayList<>();
+                        while (true) {
+                            System.out.println("Enter the name of the product you wanna order. when finished done!");
+                            for (Product product : logic.getDataBase().getProducts()) {
+                                System.out.println(product.getName() + ", price:" + product.getPrice());
+                            }
+                            String order = scanner.next();
+                            if (order.equals("b")) continue a;
+                            else if (order.equals("done")) {
+                                Order orderObj = new Order(logic.getDataBase().getLoggedInUser(), orderedProducts);
+                                logic.onCustomerOrder(logic.getDataBase().getLoggedInUser().getUsername(), orderObj);
+                                break a;
+                            } else {
+                                if (!logic.checkValidOrder(order)) continue;
+                                orderedProducts.add(logic.getDataBase().getProductByName(order));
+                            }
+                        }
 
                     }
-                    break;
                 }
                 case "2":
                     while (true) {

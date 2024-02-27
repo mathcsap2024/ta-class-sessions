@@ -1,5 +1,7 @@
 package Tuesday.session3.controller;
 
+import Tuesday.session3.model.Order;
+import Tuesday.session3.model.Product.Product;
 import Tuesday.session3.model.User;
 import Tuesday.session3.model.UserType;
 
@@ -19,15 +21,15 @@ public class FileManager {
         }
         File userFolder = new File(relativePath + username);
         if (!userFolder.mkdir()) return;
-        File file = new File(relativePath + username + "/" + username + ".txt");
+        File file = new File(relativePath + username + "/" + "orders.txt");
         try (FileWriter writer = new FileWriter(file)) {
-            writer.write(username + ":" + password);
+//            writer.write(username + ":" + password);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
 
-    public List<User> readUserFromUsersText(){
+    public List<User> readUserFromUsersText() {
         try {
             List<User> users = new ArrayList<>();
             FileReader fileReader = new FileReader(usersTextFile);
@@ -36,7 +38,7 @@ public class FileManager {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 String[] strings = line.split(":");
-                users.add(new User(UserType.CUSTOMER,strings[0],strings[1]));
+                users.add(new User(UserType.CUSTOMER, strings[0], strings[1]));
             }
 
             bufferedReader.close();
@@ -46,5 +48,16 @@ public class FileManager {
             e.printStackTrace();
             return null;
         }
+    }
+
+    public void writeOrderToFile(Order order, String username) {
+        try (FileWriter writer = new FileWriter(relativePath + "/" + username + "/orders.txt", true)) {
+            for (Product product : order.getProducts()) {
+                writer.write(product.getName() + ":");
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 }
