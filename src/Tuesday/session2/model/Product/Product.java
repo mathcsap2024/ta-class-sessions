@@ -1,8 +1,9 @@
 package Tuesday.session2.model.Product;
 
 
-import Tuesday.session2.model.AppModel;
-import Tuesday.session2.model.Ingredients;
+
+import Tuesday.session3.model.AppModel;
+import Tuesday.session3.model.Ingredients;
 
 import java.util.List;
 
@@ -22,5 +23,21 @@ public class Product extends AppModel {
         this.name = name;
         this.price = price;
         this.ingredients = ingredients;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 }

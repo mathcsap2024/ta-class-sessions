@@ -11,6 +11,10 @@ public class User extends AppModel {
         this.password = password;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
     public String getUsername() {
         return username;
     }
