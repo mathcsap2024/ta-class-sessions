@@ -51,13 +51,13 @@ public class Main extends JFrame implements KeyListener, ActionListener {
         int c = e.getKeyCode();
 
         if (c == 39 && !this.snake.getDirection().equals("left")) {
-            this.snake.setDirection("right"); // right arrow pressed
+            this.snake.setDirection("right");
         } else if (c == 37 && !this.snake.getDirection().equals("right")) {
-            this.snake.setDirection("left"); // left arrow pressed
+            this.snake.setDirection("left");
         } else if (c == 38 && !this.snake.getDirection().equals("down")) {
-            this.snake.setDirection("up"); // up arrow pressed
+            this.snake.setDirection("up");
         } else if (c == 40 && !this.snake.getDirection().equals("up")) {
-            this.snake.setDirection("down"); // down arrow pressed
+            this.snake.setDirection("down");
         }
     }
 
